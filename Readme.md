@@ -4,6 +4,12 @@ This is a basic **Udemy Clone** frontend built using **HTML** and **CSS (Flexbox
 
 ---
 
+## 🔗 Live Demo
+
+👉 **[View Deployed Site](https://ulaganathan0709.github.io/Udemy_Clone/)**  
+
+---
+
 ## 🚀 Features
 
 - ✅ Fully structured layout with reusable sections  
