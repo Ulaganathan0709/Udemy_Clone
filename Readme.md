@@ -12,12 +12,15 @@ This is a basic **Udemy Clone** frontend built using **HTML** and **CSS (Flexbox
 
 ## 🚀 Features
 
+
 - ✅ Fully structured layout with reusable sections  
-- ✅ Clean navigation bar with search and icons  
-- ✅ Course cards for "Recommended" and "Popular" sections  
-- ✅ Responsive Flexbox-based layout  
-- ✅ Categories and Topics tags  
-- ✅ Clean footer layout  
+- ✅ Responsive design using **Flexbox** and **Media Queries**  
+- ✅ Clean and sticky navigation bar with search functionality  
+- ✅ My Learning popup on hover  
+- ✅ Course cards in "Recommended" and "Popular" sections  
+- ✅ Animated sale banner  
+- ✅ Category and topic tag sections  
+- ✅ Footer with useful links and layout 
 
 ---
 
@@ -27,7 +30,18 @@ This is a basic **Udemy Clone** frontend built using **HTML** and **CSS (Flexbox
 - CSS3  
 - Flexbox  
 - Google Fonts (Gabarito)  
-- Font Awesome Icons  
+- Font Awesome Icons 
+
+---
+
+## 📱 Responsive Design
+
+The layout adapts to different screen sizes:
+
+- ✅ Desktop  
+- ✅ Tablet (`≤ 800px`)  
+- ✅ Mobile (`≤ 500px`)  
+- ✅ Very Small Devices (`≤ 300px`) 
 
 ---
 
@@ -41,10 +55,11 @@ This is a basic **Udemy Clone** frontend built using **HTML** and **CSS (Flexbox
 
 ## ✨ Future Enhancements
 
-- ✅ Make the layout fully responsive using media queries or Bootstrap  
-- ✅ Add hover effects and transitions  
-- 🔄 Connect with a backend to show dynamic content (e.g., using React or JavaScript)  
-- 🛒 Add cart functionality  
+- [x] Make the layout fully responsive using media queries  
+- [x] Add hover effects and transitions  
+- [ ] Connect with backend to show dynamic content  
+- [ ] Add cart and login functionality  
+- [ ] Implement dark/light theme switch  
 
 ---
 

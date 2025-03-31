@@ -52,6 +52,9 @@ body {
     align-items: center;
 }
 
+.navbar__s4 {
+    display: none;
+}
 /* My Learning Popup */
 
 .mylearning{
@@ -143,7 +146,9 @@ body {
 }
 
 .course-card{
-    width: 250px
+    flex-grow: 1;
+    flex-basis: 20%;
+    margin: 5px;
 }
 
 .course-card img{
@@ -200,4 +205,112 @@ body {
     display: flex;
     justify-content: space-between;
 
+}
+
+/* ✅ Tablet view: screen width ≤ 800px */
+@media screen and (max-width: 800px) {
+    body {
+        font-size: 14px;
+    }
+
+    .navbar__s2 {
+        width: 100%;
+        padding: 5px;
+    }
+
+    .navbar__s3 {
+        display: none;
+    }
+
+    .navbar__s4 {
+        display: block;
+    }
+
+    .categories {
+        flex-wrap: wrap;
+        gap: 10px;
+        justify-content: center;
+    }
+
+    .sale-Image__offer {
+        width: 60%;
+        top: 10%;
+        left: 5%;
+        font-size: 12px;
+    }
+
+    .topics__container p {
+        flex-basis: 45%;
+    }
+
+    .course-card {
+        flex-basis: 45%;
+    }
+}
+
+/* ✅ Mobile view: screen width ≤ 500px */
+@media screen and (max-width: 500px) {
+    body {
+        font-size: 12px;
+    }
+
+    .navbar__s2,
+    .navbar__s3 {
+        display: none;
+    }
+
+    .navbar__s4 {
+        display: block;
+    }
+
+    .categories {
+        display: none;
+    }
+
+    .sale-Image__offer {
+        width: 80%;
+        top: 5%;
+        left: 5%;
+        font-size: 10px;
+        padding: 10px;
+    }
+
+    .course-card {
+        flex-basis: 90%;
+    }
+
+    .topics__container p {
+        flex-basis: 100%;
+    }
+}
+
+/* ✅ Very small devices: screen width ≤ 300px */
+@media screen and (max-width: 300px) {
+    body {
+        font-size: 10px;
+    }
+
+    .course-card {
+        flex-basis: 100%;
+    }
+
+    .categories {
+        display: none;
+    }
+
+    .navbar__s2,
+    .navbar__s3 {
+        display: none;
+    }
+
+    .navbar__s4 {
+        display: block;
+    }
+
+    .sale-Image__offer {
+        width: 90%;
+        top: 3%;
+        left: 3%;
+        font-size: 9px;
+    }
 }
